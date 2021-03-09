@@ -1,0 +1,180 @@
+{
+  "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesQnAMaker",
+  "name": "Microsoft.CognitiveServicesQnAMaker",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourcegroups/newbot/providers/Microsoft.CognitiveServices/accounts/jaysnewbot",
+    "marketplaceItemId": "Microsoft.CognitiveServicesQnAMaker"
+  },
+  "properties": {
+    "templateHash": "3623039861828461418",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "jaysnewbot"
+      },
+      "appName": {
+        "type": "String",
+        "value": "jaysnewbot"
+      },
+      "sku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "location": {
+        "type": "String",
+        "value": "westus"
+      },
+      "location3": {
+        "type": "String",
+        "value": "eastus2"
+      },
+      "azureSearchLocation": {
+        "type": "String",
+        "value": "eastus2"
+      },
+      "azureSearchSku": {
+        "type": "String",
+        "value": "free"
+      },
+      "searchHostingMode": {
+        "type": "String",
+        "value": "Default"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2020-12-30T19:19:20.8389147Z",
+    "duration": "PT53.0054315S",
+    "correlationId": "25fe2d03-ca1b-4daa-a1c2-1b5e98be51c9",
+    "providers": [
+      {
+        "namespace": "Microsoft.CognitiveServices",
+        "resourceTypes": [
+          {
+            "resourceType": "accounts",
+            "locations": [
+              "westus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Search",
+        "resourceTypes": [
+          {
+            "resourceType": "searchServices",
+            "locations": [
+              "eastus2"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "eastus2"
+            ]
+          },
+          {
+            "resourceType": "sites/config",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "eastus2"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/Sites/jaysnewbot",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "jaysnewbot"
+          },
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Search/searchServices/jaysnewbot-asjwo2cbjkjawjy",
+            "resourceType": "Microsoft.Search/searchServices",
+            "resourceName": "jaysnewbot-asjwo2cbjkjawjy"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.CognitiveServices/accounts/jaysnewbot",
+        "resourceType": "Microsoft.CognitiveServices/accounts",
+        "resourceName": "jaysnewbot"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/serverfarms/jaysnewbot",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "jaysnewbot"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jaysnewbot",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "jaysnewbot"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/Sites/jaysnewbot",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "jaysnewbot"
+          },
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Search/searchServices/jaysnewbot-asjwo2cbjkjawjy",
+            "resourceType": "Microsoft.Search/searchServices",
+            "resourceName": "jaysnewbot-asjwo2cbjkjawjy"
+          },
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Search/searchServices/jaysnewbot-asjwo2cbjkjawjy",
+            "resourceType": "Microsoft.Search/searchServices",
+            "resourceName": "jaysnewbot-asjwo2cbjkjawjy",
+            "actionName": "listAdminKeys",
+            "apiVersion": "2015-08-19"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jaysnewbot/config/appsettings",
+        "resourceType": "Microsoft.Web/sites/config",
+        "resourceName": "jaysnewbot/appsettings"
+      }
+    ],
+    "outputs": {
+      "qnaRuntimeEndpoint": {
+        "type": "String",
+        "value": "https://jaysnewbot.azurewebsites.net"
+      }
+    },
+    "outputResources": [
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.CognitiveServices/accounts/jaysnewbot"
+      },
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Search/searchServices/jaysnewbot-asjwo2cbjkjawjy"
+      },
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/serverfarms/jaysnewbot"
+      },
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jaysnewbot"
+      },
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jaysnewbot/config/appsettings"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

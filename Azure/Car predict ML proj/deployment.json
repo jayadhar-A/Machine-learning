@@ -1,0 +1,357 @@
+{
+  "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices",
+  "name": "Microsoft.MachineLearningServices",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourcegroups/cognitivedemo/providers/Microsoft.MachineLearningServices/workspaces/car_predict",
+    "marketplaceItemId": "Microsoft.MachineLearningServices",
+    "provisioningHash": "iwuh-wccbe-tt0-2enb-ioes-849e-tircx-guw6"
+  },
+  "properties": {
+    "templateHash": "1907657333033085737",
+    "parameters": {
+      "workspaceName": {
+        "type": "String",
+        "value": "car_predict"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "resourceGroupName": {
+        "type": "String",
+        "value": "cognitivedemo"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "storageAccountOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "carpredict7045493736"
+      },
+      "storageAccountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "storageAccountBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "storageAccountResourceGroupName": {
+        "type": "String",
+        "value": "cognitivedemo"
+      },
+      "storageAccountLocation": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "keyVaultOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "keyVaultName": {
+        "type": "String",
+        "value": "carpredict0236951765"
+      },
+      "keyVaultBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "keyVaultResourceGroupName": {
+        "type": "String",
+        "value": "cognitivedemo"
+      },
+      "keyVaultLocation": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "applicationInsightsOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "applicationInsightsName": {
+        "type": "String",
+        "value": "carpredict9268843257"
+      },
+      "applicationInsightsResourceGroupName": {
+        "type": "String",
+        "value": "cognitivedemo"
+      },
+      "applicationInsightsLocation": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "containerRegistryOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "containerRegistryName": {
+        "type": "String",
+        "value": "cr5tyzoojn7vs62"
+      },
+      "containerRegistrySku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "containerRegistryResourceGroupName": {
+        "type": "String",
+        "value": "cognitivedemo"
+      },
+      "containerRegistryBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "containerRegistryLocation": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "vnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "vnetName": {
+        "type": "String",
+        "value": "vn5tyzoojn7vs62"
+      },
+      "vnetResourceGroupName": {
+        "type": "String",
+        "value": "cognitivedemo"
+      },
+      "addressPrefixes": {
+        "type": "Array",
+        "value": [
+          "10.0.0.0/16"
+        ]
+      },
+      "subnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "subnetName": {
+        "type": "String",
+        "value": "sn5tyzoojn7vs62"
+      },
+      "subnetPrefix": {
+        "type": "String",
+        "value": "10.0.0.0/24"
+      },
+      "adbWorkspace": {
+        "type": "String",
+        "value": ""
+      },
+      "confidential_data": {
+        "type": "String",
+        "value": "false"
+      },
+      "encryption_status": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "cmk_keyvault": {
+        "type": "String",
+        "value": ""
+      },
+      "resource_cmk_uri": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointType": {
+        "type": "String",
+        "value": "none"
+      },
+      "tagValues": {
+        "type": "Object",
+        "value": {}
+      },
+      "privateEndpointName": {
+        "type": "String",
+        "value": "pe"
+      },
+      "privateEndpointResourceGroupName": {
+        "type": "String",
+        "value": "cognitivedemo"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2020-12-30T17:39:56.7072188Z",
+    "duration": "PT2M23.2231695S",
+    "correlationId": "e71773b5-0cb6-4055-a3bf-5417c5105d72",
+    "providers": [
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.KeyVault",
+        "resourceTypes": [
+          {
+            "resourceType": "vaults",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.MachineLearningServices",
+        "resourceTypes": [
+          {
+            "resourceType": "workspaces",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Network/virtualNetworks/vn5tyzoojn7vs62",
+            "resourceType": "Microsoft.Network/virtualNetworks",
+            "resourceName": "vn5tyzoojn7vs62"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Network/virtualNetworks/vn5tyzoojn7vs62/subnets/sn5tyzoojn7vs62",
+        "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+        "resourceName": "vn5tyzoojn7vs62/sn5tyzoojn7vs62"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Network/virtualNetworks/vn5tyzoojn7vs62/subnets/sn5tyzoojn7vs62",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vn5tyzoojn7vs62/sn5tyzoojn7vs62"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Resources/deployments/UpdateSubnetPolicy-go5z6mhymm7fy",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "UpdateSubnetPolicy-go5z6mhymm7fy"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Network/virtualNetworks/vn5tyzoojn7vs62/subnets/sn5tyzoojn7vs62",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vn5tyzoojn7vs62/sn5tyzoojn7vs62"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Storage/storageAccounts/carpredict7045493736",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "carpredict7045493736"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Network/virtualNetworks/vn5tyzoojn7vs62/subnets/sn5tyzoojn7vs62",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vn5tyzoojn7vs62/sn5tyzoojn7vs62"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.KeyVault/vaults/carpredict0236951765",
+        "resourceType": "Microsoft.KeyVault/vaults",
+        "resourceName": "carpredict0236951765"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Network/virtualNetworks/vn5tyzoojn7vs62/subnets/sn5tyzoojn7vs62",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vn5tyzoojn7vs62/sn5tyzoojn7vs62"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.ContainerRegistry/registries/cr5tyzoojn7vs62",
+        "resourceType": "Microsoft.ContainerRegistry/registries",
+        "resourceName": "cr5tyzoojn7vs62"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Storage/storageAccounts/carpredict7045493736",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "carpredict7045493736"
+          },
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.KeyVault/vaults/carpredict0236951765",
+            "resourceType": "Microsoft.KeyVault/vaults",
+            "resourceName": "carpredict0236951765"
+          },
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Insights/components/carpredict9268843257",
+            "resourceType": "Microsoft.Insights/components",
+            "resourceName": "carpredict9268843257"
+          },
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.ContainerRegistry/registries/cr5tyzoojn7vs62",
+            "resourceType": "Microsoft.ContainerRegistry/registries",
+            "resourceName": "cr5tyzoojn7vs62"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.MachineLearningServices/workspaces/car_predict",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "car_predict"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.MachineLearningServices/workspaces/car_predict",
+            "resourceType": "Microsoft.MachineLearningServices/workspaces",
+            "resourceName": "car_predict"
+          },
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Network/virtualNetworks/vn5tyzoojn7vs62/subnets/sn5tyzoojn7vs62",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "vn5tyzoojn7vs62/sn5tyzoojn7vs62"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Resources/deployments/DeployPrivateEndpoint-4yxlorfvgucfo",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "DeployPrivateEndpoint-4yxlorfvgucfo"
+      }
+    ],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Insights/components/carpredict9268843257"
+      },
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.KeyVault/vaults/carpredict0236951765"
+      },
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.MachineLearningServices/workspaces/car_predict"
+      },
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Storage/storageAccounts/carpredict7045493736"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

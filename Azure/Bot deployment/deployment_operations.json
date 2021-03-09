@@ -1,0 +1,86 @@
+[
+  {
+    "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Resources/deployments/jayfirstbot_csharp_echov4_sdk_30e/operations/481049F74EC134BC",
+    "operationId": "481049F74EC134BC",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-12-30T19:04:09.3888161Z",
+      "duration": "PT1M0.5863459S",
+      "trackingId": "4aa094fb-884b-4293-9d44-000e418229d8",
+      "serviceRequestId": "40e5139b-4536-4fa3-a678-d08e581cdfe2",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.BotService/botServices/jayfirstbot",
+        "resourceType": "Microsoft.BotService/botServices",
+        "resourceName": "jayfirstbot"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Resources/deployments/jayfirstbot_csharp_echov4_sdk_30e/operations/B58F54DFCAC84CB1",
+    "operationId": "B58F54DFCAC84CB1",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-12-30T19:04:03.985803Z",
+      "duration": "PT55.1833328S",
+      "trackingId": "64033995-1f16-49e9-9985-ae50b006d19c",
+      "serviceRequestId": "0583196a-ef0a-4705-872b-24467212f0d2",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jayfirstbot/Extensions/MSDeploy",
+        "resourceType": "Microsoft.Web/sites/Extensions",
+        "resourceName": "jayfirstbot/MSDeploy"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Resources/deployments/jayfirstbot_csharp_echov4_sdk_30e/operations/07E2206E0CA2290C",
+    "operationId": "07E2206E0CA2290C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-12-30T19:03:44.4118138Z",
+      "duration": "PT35.6093436S",
+      "trackingId": "5bca5e50-b982-4898-8c2b-f734c5f47eb5",
+      "serviceRequestId": "1f65822b-3736-4757-91cd-10c44b025e41",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jayfirstbot",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "jayfirstbot"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Resources/deployments/jayfirstbot_csharp_echov4_sdk_30e/operations/2450CFD3E6F47510",
+    "operationId": "2450CFD3E6F47510",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-12-30T19:03:21.8057697Z",
+      "duration": "PT13.0032995S",
+      "trackingId": "9365cc75-0490-4974-a173-724651b8efe8",
+      "serviceRequestId": "9388f42c-f920-4a88-a74d-f8fa89e23a62",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/serverfarms/jayfirstbot",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "jayfirstbot"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Resources/deployments/jayfirstbot_csharp_echov4_sdk_30e/operations/08585922519014662069",
+    "operationId": "08585922519014662069",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-12-30T19:04:09.4641011Z",
+      "duration": "PT1M0.6616309S",
+      "trackingId": "8ee9b0e7-17c5-4d1b-9964-003f171c984d",
+      "statusCode": "OK"
+    }
+  }
+]

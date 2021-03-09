@@ -1,0 +1,86 @@
+[
+  {
+    "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/BD5306846054902D",
+    "operationId": "BD5306846054902D",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-12-30T17:39:56.4649347Z",
+      "duration": "PT1M44.941489S",
+      "trackingId": "11b8a8cc-70d3-4621-9139-537d397f7df1",
+      "serviceRequestId": "988c7a27-77ef-430c-9420-de55cb852835",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.MachineLearningServices/workspaces/car_predict",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "car_predict"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/C6D14290274C6D76",
+    "operationId": "C6D14290274C6D76",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-12-30T17:38:02.3480382Z",
+      "duration": "PT24.7187224S",
+      "trackingId": "398a8a34-ddba-4eb4-aed2-0dd58b2d5a65",
+      "serviceRequestId": "bac1505e-66b6-479c-b4b4-2f48a4af8703",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.KeyVault/vaults/carpredict0236951765",
+        "resourceType": "Microsoft.KeyVault/vaults",
+        "resourceName": "carpredict0236951765"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/DA5F3A05722D4B8A",
+    "operationId": "DA5F3A05722D4B8A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-12-30T17:37:44.7700606Z",
+      "duration": "PT7.1905086S",
+      "trackingId": "8a68218f-a739-4108-b2bd-19c857d63064",
+      "serviceRequestId": "458a4281-ea6a-41ae-badf-2e9a2e948d56",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Insights/components/carpredict9268843257",
+        "resourceType": "Microsoft.Insights/components",
+        "resourceName": "carpredict9268843257"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/374693FC90288CCB",
+    "operationId": "374693FC90288CCB",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-12-30T17:38:11.4526546Z",
+      "duration": "PT33.8233388S",
+      "trackingId": "126935da-53c5-4205-8766-85f1f75cd5c3",
+      "serviceRequestId": "6c7a31b4-be0a-464d-8517-9d79cd4a6ddd",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Storage/storageAccounts/carpredict7045493736",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "carpredict7045493736"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/cognitivedemo/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/08585922570319936485",
+    "operationId": "08585922570319936485",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-12-30T17:39:56.6691168Z",
+      "duration": "PT0.1153808S",
+      "trackingId": "27662fff-6370-4c46-bb22-daf5481b6e5d",
+      "statusCode": "OK"
+    }
+  }
+]

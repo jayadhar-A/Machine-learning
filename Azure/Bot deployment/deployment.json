@@ -1,0 +1,220 @@
+{
+  "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Resources/deployments/jayfirstbot_csharp_echov4_sdk_30e",
+  "name": "jayfirstbot_csharp_echov4_sdk_30e",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourcegroups/newbot/providers/Microsoft.BotService/botServices/jayfirstbot",
+    "marketplaceItemId": "Microsoft.BotServiceSdkGalleryPackage"
+  },
+  "properties": {
+    "templateHash": "1086207614450414226",
+    "parameters": {
+      "botEnv": {
+        "type": "String",
+        "value": "prod"
+      },
+      "botId": {
+        "type": "String",
+        "value": "jayfirstbot"
+      },
+      "location": {
+        "type": "String",
+        "value": "Central US"
+      },
+      "sku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "kind": {
+        "type": "String",
+        "value": "sdk"
+      },
+      "siteName": {
+        "type": "String",
+        "value": "jayfirstbot"
+      },
+      "createNewStorage": {
+        "type": "Bool",
+        "value": true
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "jayfirstbotb794"
+      },
+      "storageAccountLocation": {
+        "type": "String",
+        "value": ""
+      },
+      "storageAccountResourceId": {
+        "type": "String",
+        "value": ""
+      },
+      "appId": {
+        "type": "String",
+        "value": "2eae795c-ec6b-46e2-b90b-ba5ab0c54be8"
+      },
+      "appSecret": {
+        "type": "String",
+        "value": "T6PTOCG|f4}))Q4m]#Mi@x&[5izoy"
+      },
+      "azureWebJobsBotFrameworkDirectLineSecret": {
+        "type": "String",
+        "value": ""
+      },
+      "zipUrl": {
+        "type": "String",
+        "value": "https://bot-framework.azureedge.net/static/196122-8150074ffc/bot-packages/v1.3.27-178717/csharp-abs-webapp-v4_echobot_precompiled.zip"
+      },
+      "proactiveZipUrl": {
+        "type": "String",
+        "value": ""
+      },
+      "useAppInsights": {
+        "type": "Bool",
+        "value": false
+      },
+      "appInsightsLocation": {
+        "type": "String",
+        "value": "East US"
+      },
+      "serverFarmId": {
+        "type": "String",
+        "value": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/serverfarms/jayfirstbot"
+      },
+      "createServerFarm": {
+        "type": "Bool",
+        "value": true
+      },
+      "serverFarmLocation": {
+        "type": "String",
+        "value": "Central US"
+      },
+      "serverFarmSku": {
+        "type": "Object",
+        "value": {
+          "tier": "Standard",
+          "name": "S1"
+        }
+      },
+      "endpoint": {
+        "type": "String",
+        "value": ""
+      },
+      "luisApiLocation": {
+        "type": "String",
+        "value": "Global"
+      },
+      "botQueueName": {
+        "type": "String",
+        "value": "bot-queue"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2020-12-30T19:04:09.479821Z",
+    "duration": "PT1M5.468346S",
+    "correlationId": "c36540b3-815a-4a09-84ba-49e3045cd611",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "centralus"
+            ]
+          },
+          {
+            "resourceType": "sites",
+            "locations": [
+              "centralus"
+            ]
+          },
+          {
+            "resourceType": "sites/Extensions",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.BotService",
+        "resourceTypes": [
+          {
+            "resourceType": "botServices",
+            "locations": [
+              "global"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/serverfarms/jayfirstbot",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "jayfirstbot"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jayfirstbot",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "jayfirstbot"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jayfirstbot",
+            "resourceType": "Microsoft.Web/sites",
+            "resourceName": "jayfirstbot"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jayfirstbot/Extensions/MSDeploy",
+        "resourceType": "Microsoft.Web/sites/Extensions",
+        "resourceName": "jayfirstbot/MSDeploy"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/serverfarms/jayfirstbot",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "jayfirstbot"
+          },
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jayfirstbot",
+            "resourceType": "Microsoft.Web/sites",
+            "resourceName": "jayfirstbot"
+          },
+          {
+            "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jayfirstbot/Extensions/MSDeploy",
+            "resourceType": "Microsoft.Web/sites/Extensions",
+            "resourceName": "jayfirstbot/MSDeploy"
+          }
+        ],
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.BotService/botServices/jayfirstbot",
+        "resourceType": "Microsoft.BotService/botServices",
+        "resourceName": "jayfirstbot"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.BotService/botServices/jayfirstbot"
+      },
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/serverfarms/jayfirstbot"
+      },
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jayfirstbot"
+      },
+      {
+        "id": "/subscriptions/f5a25ddb-e9f3-4b7c-9ac2-e62c2401a86e/resourceGroups/newbot/providers/Microsoft.Web/sites/jayfirstbot/Extensions/MSDeploy"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
