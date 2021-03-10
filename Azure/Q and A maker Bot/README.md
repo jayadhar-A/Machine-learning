@@ -1,0 +1,1 @@
+This is an extension to Building the Bot Project. Here we are going to build the Q&A Bot, we are going to add few sentences to reply back to customer, and use the same procedure for building the project
