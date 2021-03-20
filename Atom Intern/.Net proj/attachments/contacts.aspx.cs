@@ -18,9 +18,9 @@ public partial class contacts : System.Web.UI.Page
         string number = TextBox2.Text;
         string email = TextBox3.Text;
         string address = TextBox4.Text;
-        SqlConnection con = new SqlConnection("Data Source=.\\SQLEXPRESS;AttachDbFilename=C:\\Users\\jayadhar\\Documents\\keerthi.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True");
+        SqlConnection con = new SqlConnection("Data Source=.\\SQLEXPRESS;AttachDbFilename=C:\\Users\\jayadhar\\Documents\\new.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True");
         con.Open();
-        SqlCommand cmd=new SqlCommand("insert into keerthi_contacts values(@name,@number,@email,@address)",con);
+        SqlCommand cmd=new SqlCommand("insert into new_contacts values(@name,@number,@email,@address)",con);
         cmd.Parameters.AddWithValue("@name",name);
         cmd.Parameters.AddWithValue("@number", number);
         cmd.Parameters.AddWithValue("@email", email);

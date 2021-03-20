@@ -19,7 +19,7 @@
         </ItemTemplate>
     </asp:DataList>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
-        ConnectionString="<%$ ConnectionStrings:keerthiConnectionString %>" 
+        ConnectionString="<%$ ConnectionStrings:newConnectionString %>"
         SelectCommand="SELECT * FROM [data_table]"></asp:SqlDataSource>
     <br />
 </asp:Content>

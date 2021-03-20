@@ -15,7 +15,7 @@ public partial class time : System.Web.UI.Page
     protected void Button6_Click(object sender, EventArgs e)
     {
         string data = TextBox1.Text;
-        SqlConnection con = new SqlConnection("Data Source=.\\SQLEXPRESS;AttachDbFilename=C:\\Users\\jayadhar\\Documents\\keerthi.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True");
+        SqlConnection con = new SqlConnection("Data Source=.\\SQLEXPRESS;AttachDbFilename=C:\\Users\\jayadhar\\Documents\\new.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True");
         con.Open();
         SqlCommand cmd = new SqlCommand("insert into data_table values(@data)",con);
         cmd.Parameters.AddWithValue("@data", data);

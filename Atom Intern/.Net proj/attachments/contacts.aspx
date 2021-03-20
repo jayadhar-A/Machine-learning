@@ -51,8 +51,8 @@
         </Columns>
     </asp:GridView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
-        ConnectionString="<%$ ConnectionStrings:keerthiConnectionString %>" 
-        SelectCommand="SELECT * FROM [keerthi_contacts]"></asp:SqlDataSource>
+        ConnectionString="<%$ ConnectionStrings:newConnectionString %>"
+        SelectCommand="SELECT * FROM [new_contacts]"></asp:SqlDataSource>
 </p>
 <p>
 </p>
