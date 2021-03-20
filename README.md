@@ -3,4 +3,6 @@ Machine learning Algos and assignments
 This branch consists of 3 modules
 1. Algorithms
 2. Assignments
-3. Notes
+3. Projects
+4. Intern Projects
+5. Notes
