@@ -1,0 +1,3 @@
+Safer pharmacy is: Pharmacy1 i.e.h
+Path to follow: a, d, f, e, h
+Containment zones on this path: 16

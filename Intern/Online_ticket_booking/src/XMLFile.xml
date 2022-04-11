@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/Arundhathi.jpg</ImageUrl>
+    <height>240</height>
+    <width>65</width>
+    <NavigateUrl>
+      http://www.aw-bc.com/newpearsonchoices
+    </NavigateUrl>
+    <AlternateText>New Pearson Choices</AlternateText>
+
+
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/Mithrudu.jpg</ImageUrl>
+    <height>240</height>
+    <width>65</width>
+    <NavigateUrl>http://www.pearsoned.com</NavigateUrl>
+    <AlternateText>Pearson Ed</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/Kick.jpg</ImageUrl>
+    <height>240</height>
+    <width>65</width>
+    <NavigateUrl>http://www.pearsoned.com</NavigateUrl>
+    <AlternateText>Pearson Ed</AlternateText>
+  </Ad>
+</Advertisements>

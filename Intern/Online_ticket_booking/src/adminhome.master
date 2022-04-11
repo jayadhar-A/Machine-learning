@@ -1,0 +1,63 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminhome.master.cs" Inherits="Admin_MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Untitled Document</title>
+    <script language="javascript" type="text/javascript" src="../Includes on laxmi/datetimepicker.js"></script>
+
+    <style type="text/css">
+<!--
+.table { border:#B30000 solid 1px; background-color:#fff; }
+-->
+</style>
+
+    <script language="javascript" type="text/javascript">
+
+// <!CDATA[
+
+function TABLE1_onclick() {
+
+// ]]>
+    </script>
+
+</head>
+<body bgcolor="#222222">
+<form id="f" runat="server">
+    <table width="1000" align="center" cellpadding="0" cellspacing="0" class="table"
+        id="TABLE1" onclick="return TABLE1_onclick()">
+        <tr>
+            <td style="width: 1002px; height: 245px;">
+                <img src="images/banner1.gif" />
+        </tr>
+        <tr>
+            <td background="images/menu.gif" style="height: 24px">
+                &nbsp;<asp:Menu ID="Menu1" runat="server" Font-Bold="True" ForeColor="#FFFFFF" Orientation="Horizontal"
+                    Width="957px">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/home.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/user/ticketcancel.aspx" Text="Cancel Ticket " Value="cancel Ticket ">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/user/userhome.aspx" Text="User Home" Value="User Home">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/user/chngepwd.aspx" Text="ChangePassword" Value="ChangePassword">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/home.aspx" Text="SignOut" Value="SignOut"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </td>
+        </tr>
+        <tr>
+            <td height="500" background="images/bg.gif">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td height="25" bgcolor="#B30000" style="width: 1002px">
+                &nbsp;</td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
